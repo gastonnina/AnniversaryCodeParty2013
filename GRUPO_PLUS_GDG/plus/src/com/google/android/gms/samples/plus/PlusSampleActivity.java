@@ -14,6 +14,7 @@ public class PlusSampleActivity extends ListActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ///GDG
+        
         Intent login_plus = new Intent(this,SignInActivity.class);
         startActivity(login_plus);
     }
