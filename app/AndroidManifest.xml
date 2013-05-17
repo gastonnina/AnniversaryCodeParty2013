@@ -24,6 +24,13 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".SignInActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
             android:launchMode="singleTask"
             android:name=".OAuthActivity" >
             <intent-filter >
